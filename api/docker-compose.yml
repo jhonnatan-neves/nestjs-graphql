@@ -1,0 +1,12 @@
+version: '3'
+services:
+  postgres:
+    imagem: postgres:10.3
+    restart: always
+    posts:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
