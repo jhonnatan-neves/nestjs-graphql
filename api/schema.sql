@@ -34,6 +34,7 @@ input SinginInput {
 
 type Mutation {
   singup(input: SingupCreateInput!): User!
+  createUser(input: CreateUsersInput!): User!
 }
 
 input SingupCreateInput {
@@ -41,4 +42,12 @@ input SingupCreateInput {
   password: String!
   firstName: String!
   lastName: String!
+}
+
+input CreateUsersInput {
+  email: String!
+  password: String!
+  firstName: String!
+  lastName: String!
+  type: Float!
 }
