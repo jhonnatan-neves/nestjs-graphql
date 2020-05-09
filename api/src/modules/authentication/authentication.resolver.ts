@@ -11,6 +11,11 @@ export class AuthenticationResolver {
   ) {
   }
 
+  @Query(() => User)
+  public async oi(): Promise<User> {
+    return await this._authenticationService.oi();
+  }
+
   @Query(() => SinginType)
   public async signin(
     @Args('input') input: SinginInput

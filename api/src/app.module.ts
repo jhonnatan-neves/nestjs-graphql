@@ -6,6 +6,7 @@ import {AuthenticationModule} from './modules/authentication/authentication.modu
 import {GqlModuleOptions, GraphQLModule} from "@nestjs/graphql";
 import { UserModule } from './modules/user/user.module';
 import { DatabaseModule } from './database/database.module';
+import { SharedModule } from './shared/shared.module';
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { DatabaseModule } from './database/database.module';
           installSubscriptionHandlers: true,
           context: ({req}) => ({req}),
           formatError: err => {
+            return err;
             return ({
               ...err.extensions.exception.response
             })
@@ -29,7 +31,8 @@ import { DatabaseModule } from './database/database.module';
     ConfigModule,
     AuthenticationModule,
     UserModule,
-    DatabaseModule
+    DatabaseModule,
+    SharedModule
   ],
   controllers: [],
   providers: [],

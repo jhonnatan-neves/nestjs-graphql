@@ -9,7 +9,7 @@ import {RolesGuard} from "../../shared/guard/roles.guard";
 import {UserType} from "../../shared/enum/user.enum";
 
 @Resolver('User')
-@UseGuards(JwtAuthGuard, RolesGuard)
+// @UseGuards(JwtAuthGuard, RolesGuard)
 export class UserResolver {
   constructor(
     private readonly _userService: UserService
@@ -17,8 +17,9 @@ export class UserResolver {
   }
 
   @Mutation(() => User)
-  @Roles(UserType.ADMIN)
+  // @Roles(UserType.ADMIN)
   async createUser(@Args('input') input: CreateUsersInput): Promise<User> {
+    console.log('opa')
     return await this._userService.createUser(input);
   }
 }

@@ -17,6 +17,10 @@ export class AuthenticationService {
   ) {
   }
 
+  public async oi(): Promise<User> {
+    return await this._authenticationRepository.findOne();
+  }
+
   public async signin(input: SinginInput): Promise<SinginType> {
     const {email, password} = input;
     const user: User | null = await this._authenticationRepository.findOne({

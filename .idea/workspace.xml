@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bd9a2f3-7217-46ed-8959-e8013b0cbca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/authentication/authentication.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/modules/authentication/authentication.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/authentication/authentication.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/modules/authentication/authentication.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/user/user.input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/modules/user/user.input.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/modules/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/modules/user/user.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/modules/user/user.resolver.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/api/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -48,6 +56,12 @@
       <option name="presentableId" value="Default" />
       <updated>1587429542451</updated>
       <workItem from="1587429543840" duration="6477000" />
+      <workItem from="1587471421780" duration="8130000" />
+      <workItem from="1587516535566" duration="619000" />
+      <workItem from="1587530207559" duration="451000" />
+      <workItem from="1587557089848" duration="19000" />
+      <workItem from="1588040451044" duration="644000" />
+      <workItem from="1588074621285" duration="14000" />
     </task>
     <servers />
   </component>
@@ -63,13 +77,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="416" y="113" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587430696807" />
-    <state x="390" y="98" width="585" height="530" key="find.popup" timestamp="1587435975404">
+    <state x="461" y="119" width="424" height="479" key="FileChooserDialogImpl" timestamp="1588074630805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="98" width="585" height="530" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1587435975404" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587436008546">
+    <state x="461" y="119" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588074630805" />
+    <state x="187" y="0" key="SettingsEditor" timestamp="1587472537889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587436008546" />
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587472537889" />
+    <state x="390" y="98" width="585" height="530" key="find.popup" timestamp="1587477675796">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="98" width="585" height="530" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1587477675796" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587477392411">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587477392411" />
   </component>
 </project>

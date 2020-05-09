@@ -24,6 +24,7 @@ type SinginType {
 }
 
 type Query {
+  oi: User!
   signin(input: SinginInput!): SinginType!
 }
 
